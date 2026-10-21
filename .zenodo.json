@@ -1,0 +1,15 @@
+{
+  "title": "What Grounding Buys: code and data for separating evidence and citation contracts in language model explanations of a variational quantum model",
+  "upload_type": "dataset",
+  "description": "Code, frozen decision logs, per-cell language model caches, and scored records for the study \"What Grounding Buys: Separating Evidence and Citation Contracts in Language Model Explanations of a Variational Quantum Model\". The archive contains the eight-qubit substrate checkpoint, the routing battery, the frozen 90-cell grid (55,080 records), the evidence by citation-contract grid (18,360 records), the classical control, the post-freeze analyses, and the human annotation sheet for the citation auditor. Every table and figure of the manuscript is regenerated from these files by the scripts in the repository. Code is released under the MIT license and data under CC BY 4.0.",
+  "creators": [
+    {"name": "Martín-Pérez, Daniel", "affiliation": "Data Science and Big Data Lab, Pablo de Olavide University"},
+    {"name": "Rodríguez-Díaz, Francesc", "affiliation": "Data Science and Big Data Lab, Pablo de Olavide University"},
+    {"name": "Gutiérrez-Avilés, David", "affiliation": "Department of Computer Science, University of Seville"},
+    {"name": "Troncoso, Alicia", "affiliation": "Data Science and Big Data Lab, Pablo de Olavide University"},
+    {"name": "Martínez-Álvarez, Francisco", "affiliation": "Data Science and Big Data Lab, Pablo de Olavide University"}
+  ],
+  "keywords": ["explanation faithfulness", "large language models", "citation contracts", "variational quantum circuits", "quantum machine learning", "decision logs", "counterfactual explanations"],
+  "license": "cc-by-4.0",
+  "access_right": "open"
+}

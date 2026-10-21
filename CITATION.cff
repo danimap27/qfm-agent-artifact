@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the corresponding paper."
+title: "What Grounding Buys: Separating Evidence and Citation Contracts in Language Model Explanations of a Variational Quantum Model"
+authors:
+  - family-names: "Martín-Pérez"
+    given-names: "Daniel"
+    affiliation: "Data Science and Big Data Lab, Pablo de Olavide University, Seville, Spain"
+  - family-names: "Rodríguez-Díaz"
+    given-names: "Francesc"
+    affiliation: "Data Science and Big Data Lab, Pablo de Olavide University, Seville, Spain"
+  - family-names: "Gutiérrez-Avilés"
+    given-names: "David"
+    affiliation: "Department of Computer Science, University of Seville, Seville, Spain"
+  - family-names: "Troncoso"
+    given-names: "Alicia"
+    affiliation: "Data Science and Big Data Lab, Pablo de Olavide University, Seville, Spain"
+  - family-names: "Martínez-Álvarez"
+    given-names: "Francisco"
+    affiliation: "Data Science and Big Data Lab, Pablo de Olavide University, Seville, Spain"
+    email: "fmaralv@upo.es"
+version: 1.0.0
+date-released: "2026-10-21"
+license: MIT
+repository-code: "https://github.com/danimap27/qfm-agent"
+keywords:
+  - explanation faithfulness
+  - large language models
+  - citation contracts
+  - variational quantum model
+  - quantum machine learning
+  - decision logs
+  - counterfactual explanations

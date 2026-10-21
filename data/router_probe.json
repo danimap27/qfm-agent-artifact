@@ -1,0 +1,787 @@
+{
+  "version": 3,
+  "created": "2026-09-28",
+  "description": "Labeled request examples for the QFM-Agent routing probe. Twelve requests per task: the first half of each task's requests forms the classical-baseline training split, the second half is the shared evaluation split. Version 3 expands the v2 four-per-task probe and keeps its items inside their original halves as a reproducible subset.",
+  "requests": [
+    {
+      "id": "blood_transfusion-1",
+      "text": "Predict whether a blood donor will return to donate again.",
+      "task": "blood_transfusion"
+    },
+    {
+      "id": "blood_transfusion-2",
+      "text": "Estimate donor return behavior at a blood donation center from historical records.",
+      "task": "blood_transfusion"
+    },
+    {
+      "id": "blood_transfusion-5",
+      "task": "blood_transfusion",
+      "text": "blood donor return prediction"
+    },
+    {
+      "id": "blood_transfusion-6",
+      "task": "blood_transfusion",
+      "text": "Will this donor come back to give blood again?"
+    },
+    {
+      "id": "blood_transfusion-7",
+      "task": "blood_transfusion",
+      "text": "Estimate repeat donation behavior from donor history records."
+    },
+    {
+      "id": "blood_transfusion-8",
+      "task": "blood_transfusion",
+      "text": "We have a donor list, can you say who is likely to donate again?"
+    },
+    {
+      "id": "blood_transfusion-3",
+      "text": "Will this donor give blood again at the next drive?",
+      "task": "blood_transfusion"
+    },
+    {
+      "id": "blood_transfusion-4",
+      "text": "Classify a donor's likelihood to return based on their donation history.",
+      "task": "blood_transfusion"
+    },
+    {
+      "id": "blood_transfusion-9",
+      "task": "blood_transfusion",
+      "text": "Predict the return of blood donors from their historical donation data."
+    },
+    {
+      "id": "blood_transfusion-10",
+      "task": "blood_transfusion",
+      "text": "Donor retention scoring, similar to predicting repeat blood donations."
+    },
+    {
+      "id": "blood_transfusion-11",
+      "task": "blood_transfusion",
+      "text": "blood_transfusion: returner or not from months since first and last donation"
+    },
+    {
+      "id": "blood_transfusion-12",
+      "task": "blood_transfusion",
+      "text": "A blood bank wants to prioritize outreach to donors likely to return for another donation."
+    },
+    {
+      "id": "digits-1",
+      "text": "Recognize the digit in a small rasterized handwriting image.",
+      "task": "digits"
+    },
+    {
+      "id": "digits-2",
+      "text": "Identify handwritten numbers in low resolution 8 by 8 pixel scans.",
+      "task": "digits"
+    },
+    {
+      "id": "digits-5",
+      "task": "digits",
+      "text": "handwritten digit recognition on tiny images"
+    },
+    {
+      "id": "digits-6",
+      "task": "digits",
+      "text": "Which digit is written in this low resolution handwriting sample?"
+    },
+    {
+      "id": "digits-7",
+      "task": "digits",
+      "text": "Read the digit from an eight by eight pixel grayscale scan."
+    },
+    {
+      "id": "digits-8",
+      "task": "digits",
+      "text": "Here is a tiny picture of a handwritten number, what digit is it?"
+    },
+    {
+      "id": "digits-3",
+      "text": "Read the digit written in a tiny grayscale sample.",
+      "task": "digits"
+    },
+    {
+      "id": "digits-4",
+      "text": "Digit recognition on small handwritten character images.",
+      "task": "digits"
+    },
+    {
+      "id": "digits-9",
+      "task": "digits",
+      "text": "Classify small handwritten digit images into their numeral classes."
+    },
+    {
+      "id": "digits-10",
+      "task": "digits",
+      "text": "Character reading, similar to digit recognition in compact grayscale scans."
+    },
+    {
+      "id": "digits-11",
+      "task": "digits",
+      "text": "digits: numeral from 64 pixel intensities of a handwritten sample"
+    },
+    {
+      "id": "digits-12",
+      "task": "digits",
+      "text": "An OCR prototype needs to turn small handwriting scans into the digit they show."
+    },
+    {
+      "id": "fashion8-1",
+      "text": "Sort grayscale photos of clothing items into categories like shoe, dress or coat.",
+      "task": "fashion8"
+    },
+    {
+      "id": "fashion8-2",
+      "text": "Classify images of garments by fashion category.",
+      "task": "fashion8"
+    },
+    {
+      "id": "fashion8-5",
+      "task": "fashion8",
+      "text": "clothing category classification from photos"
+    },
+    {
+      "id": "fashion8-6",
+      "task": "fashion8",
+      "text": "Which garment category does this grayscale clothing photo show?"
+    },
+    {
+      "id": "fashion8-7",
+      "task": "fashion8",
+      "text": "Sort apparel images into categories like shoe, dress or coat."
+    },
+    {
+      "id": "fashion8-8",
+      "task": "fashion8",
+      "text": "I have pictures of clothes, can you tell me which type of item each shows?"
+    },
+    {
+      "id": "fashion8-3",
+      "text": "Categorize apparel pictures into garment types.",
+      "task": "fashion8"
+    },
+    {
+      "id": "fashion8-4",
+      "text": "Recognize clothing categories such as shirts, trousers or bags in images.",
+      "task": "fashion8"
+    },
+    {
+      "id": "fashion8-9",
+      "task": "fashion8",
+      "text": "Classify grayscale photographs of garments into fashion categories."
+    },
+    {
+      "id": "fashion8-10",
+      "task": "fashion8",
+      "text": "Apparel sorting, similar to clothing category recognition in images."
+    },
+    {
+      "id": "fashion8-11",
+      "task": "fashion8",
+      "text": "fashion8: item type from a grayscale product photo"
+    },
+    {
+      "id": "fashion8-12",
+      "task": "fashion8",
+      "text": "An online store wants to auto-tag clothing photos into garment categories like shirts or bags."
+    },
+    {
+      "id": "ionosphere-1",
+      "text": "Decide if radar signals from the ionosphere indicate a structure in the electron density.",
+      "task": "ionosphere"
+    },
+    {
+      "id": "ionosphere-2",
+      "text": "Classify ionospheric radar returns as good or bad echoes.",
+      "task": "ionosphere"
+    },
+    {
+      "id": "ionosphere-5",
+      "task": "ionosphere",
+      "text": "ionospheric radar return classification"
+    },
+    {
+      "id": "ionosphere-6",
+      "task": "ionosphere",
+      "text": "Is this radar echo from the ionosphere a good or bad return?"
+    },
+    {
+      "id": "ionosphere-7",
+      "task": "ionosphere",
+      "text": "Classify upper atmosphere radar returns as structured or noisy."
+    },
+    {
+      "id": "ionosphere-8",
+      "task": "ionosphere",
+      "text": "Our radar picked up signals over the ionosphere, do they show a plasma structure or just noise?"
+    },
+    {
+      "id": "ionosphere-3",
+      "text": "Interpret radar echo data from the upper atmosphere to detect plasma structures.",
+      "task": "ionosphere"
+    },
+    {
+      "id": "ionosphere-4",
+      "text": "Decide whether an ionospheric backscatter reading is good or noisy.",
+      "task": "ionosphere"
+    },
+    {
+      "id": "ionosphere-9",
+      "task": "ionosphere",
+      "text": "Decide whether ionospheric backscatter readings indicate electron density structures."
+    },
+    {
+      "id": "ionosphere-10",
+      "task": "ionosphere",
+      "text": "Radar echo interpretation, similar to good versus bad ionosphere returns."
+    },
+    {
+      "id": "ionosphere-11",
+      "task": "ionosphere",
+      "text": "ionosphere: good or bad echo from radar autocorrelation features"
+    },
+    {
+      "id": "ionosphere-12",
+      "task": "ionosphere",
+      "text": "A space weather station wants radar returns labeled as showing a structure or not."
+    },
+    {
+      "id": "iris-1",
+      "text": "Classify iris flower species from petal and sepal measurements.",
+      "task": "iris"
+    },
+    {
+      "id": "iris-2",
+      "text": "Can you separate three flower classes from botanical size measurements of petals and sepals?",
+      "task": "iris"
+    },
+    {
+      "id": "iris-5",
+      "task": "iris",
+      "text": "iris species identification from flower measurements"
+    },
+    {
+      "id": "iris-6",
+      "task": "iris",
+      "text": "Botanical classification: which iris species is this sample?"
+    },
+    {
+      "id": "iris-7",
+      "task": "iris",
+      "text": "Sort iris samples into species classes using their petal and sepal sizes."
+    },
+    {
+      "id": "iris-8",
+      "task": "iris",
+      "text": "I collected petal and sepal sizes from several flowers, help me label the iris species."
+    },
+    {
+      "id": "iris-3",
+      "text": "A botanist needs the species of a flower from its petal and sepal dimensions.",
+      "task": "iris"
+    },
+    {
+      "id": "iris-4",
+      "text": "Identify the iris variety given length and width measurements of petals and sepals.",
+      "task": "iris"
+    },
+    {
+      "id": "iris-9",
+      "task": "iris",
+      "text": "Determine the iris species class from four morphometric features of the flower."
+    },
+    {
+      "id": "iris-10",
+      "task": "iris",
+      "text": "Classify the flower type, similar to iris species discrimination from sepal and petal data."
+    },
+    {
+      "id": "iris-11",
+      "task": "iris",
+      "text": "iris: species label from petal length, petal width, sepal length, sepal width"
+    },
+    {
+      "id": "iris-12",
+      "task": "iris",
+      "text": "A researcher studying wild irises wants to assign each specimen to its species using simple flower dimension readings."
+    },
+    {
+      "id": "mnist8-1",
+      "text": "Identify handwritten digits from a large collection of digit photographs.",
+      "task": "mnist8"
+    },
+    {
+      "id": "mnist8-2",
+      "text": "Run digit recognition over a big database of handwriting samples.",
+      "task": "mnist8"
+    },
+    {
+      "id": "mnist8-5",
+      "task": "mnist8",
+      "text": "handwritten digit classification at scale"
+    },
+    {
+      "id": "mnist8-6",
+      "task": "mnist8",
+      "text": "Which numerals appear in this large batch of handwriting photos?"
+    },
+    {
+      "id": "mnist8-7",
+      "task": "mnist8",
+      "text": "Run digit recognition across a big collection of handwriting images."
+    },
+    {
+      "id": "mnist8-8",
+      "task": "mnist8",
+      "text": "We scanned thousands of handwritten numbers, can you sort them by digit?"
+    },
+    {
+      "id": "mnist8-3",
+      "text": "Recognize numbers in a large set of scanned handwriting samples.",
+      "task": "mnist8"
+    },
+    {
+      "id": "mnist8-4",
+      "text": "Classify handwritten numerals drawn from a broad image corpus.",
+      "task": "mnist8"
+    },
+    {
+      "id": "mnist8-9",
+      "task": "mnist8",
+      "text": "Classify handwritten numerals from a broad corpus of digit photographs."
+    },
+    {
+      "id": "mnist8-10",
+      "task": "mnist8",
+      "text": "Large scale character recognition, similar to digit sorting over image databases."
+    },
+    {
+      "id": "mnist8-11",
+      "task": "mnist8",
+      "text": "mnist8: numeral labels for a mass of scanned handwritten digits"
+    },
+    {
+      "id": "mnist8-12",
+      "task": "mnist8",
+      "text": "A digitization project needs automated labels for a wide archive of handwritten digit photographs."
+    },
+    {
+      "id": "parkinsons-1",
+      "text": "Detect signs of Parkinson's disease from biomedical voice measurements.",
+      "task": "parkinsons"
+    },
+    {
+      "id": "parkinsons-2",
+      "text": "Analyze sustained vowel phonations to screen for a neurodegenerative motor disorder.",
+      "task": "parkinsons"
+    },
+    {
+      "id": "parkinsons-5",
+      "task": "parkinsons",
+      "text": "Parkinson screening from voice recordings"
+    },
+    {
+      "id": "parkinsons-6",
+      "task": "parkinsons",
+      "text": "Do these voice measurements show signs of Parkinson's disease?"
+    },
+    {
+      "id": "parkinsons-7",
+      "task": "parkinsons",
+      "text": "Detect early Parkinsonian patterns in sustained vowel recordings."
+    },
+    {
+      "id": "parkinsons-8",
+      "task": "parkinsons",
+      "text": "My relative did a voice test, could these frequency and jitter numbers indicate Parkinson's?"
+    },
+    {
+      "id": "parkinsons-3",
+      "text": "Use voice frequency and jitter measures to detect early signs of Parkinson's disease.",
+      "task": "parkinsons"
+    },
+    {
+      "id": "parkinsons-4",
+      "text": "Screen for a Parkinsonian voice pattern from sustained phonation samples.",
+      "task": "parkinsons"
+    },
+    {
+      "id": "parkinsons-9",
+      "task": "parkinsons",
+      "text": "Screen for Parkinson's disease using biomedical voice signal characteristics."
+    },
+    {
+      "id": "parkinsons-10",
+      "task": "parkinsons",
+      "text": "Neurodegenerative voice screening, similar to Parkinson detection from phonation data."
+    },
+    {
+      "id": "parkinsons-11",
+      "task": "parkinsons",
+      "text": "parkinsons: healthy or affected from jitter, shimmer and harmonicity of sustained vowels"
+    },
+    {
+      "id": "parkinsons-12",
+      "task": "parkinsons",
+      "text": "A neurology study wants to flag Parkinsonian voice deterioration from sustained phonation samples."
+    },
+    {
+      "id": "periodic_sin-1",
+      "text": "Forecast whether a periodic signal will be positive or negative at the next step.",
+      "task": "periodic_sin"
+    },
+    {
+      "id": "periodic_sin-2",
+      "text": "Predict the sign of the next value in a thresholded sine wave series.",
+      "task": "periodic_sin"
+    },
+    {
+      "id": "periodic_sin-5",
+      "task": "periodic_sin",
+      "text": "sign prediction for a periodic time series"
+    },
+    {
+      "id": "periodic_sin-6",
+      "task": "periodic_sin",
+      "text": "Will the next sample of this wave be above or below zero?"
+    },
+    {
+      "id": "periodic_sin-7",
+      "task": "periodic_sin",
+      "text": "Forecast the polarity of the next point in a thresholded sine sequence."
+    },
+    {
+      "id": "periodic_sin-8",
+      "task": "periodic_sin",
+      "text": "We are tracking a sine wave, is the coming value positive or negative?"
+    },
+    {
+      "id": "periodic_sin-3",
+      "text": "Will the next sample of the wave be above or below zero?",
+      "task": "periodic_sin"
+    },
+    {
+      "id": "periodic_sin-4",
+      "text": "Predict the polarity of the upcoming point in a sinusoidal trace.",
+      "task": "periodic_sin"
+    },
+    {
+      "id": "periodic_sin-9",
+      "task": "periodic_sin",
+      "text": "Predict whether a periodic signal crosses zero at the next step."
+    },
+    {
+      "id": "periodic_sin-10",
+      "task": "periodic_sin",
+      "text": "Signal polarity forecasting, similar to sign prediction in sinusoidal traces."
+    },
+    {
+      "id": "periodic_sin-11",
+      "task": "periodic_sin",
+      "text": "periodic_sin: next step sign from the recent wave samples"
+    },
+    {
+      "id": "periodic_sin-12",
+      "task": "periodic_sin",
+      "text": "A monitoring tool needs the next reading of a periodic sensor classified as above or below the threshold."
+    },
+    {
+      "id": "sonar-1",
+      "text": "Tell whether an underwater sonar return came from a metal cylinder or a rock.",
+      "task": "sonar"
+    },
+    {
+      "id": "sonar-2",
+      "text": "Classify echo signals bouncing off mine-like versus rock-like objects.",
+      "task": "sonar"
+    },
+    {
+      "id": "sonar-5",
+      "task": "sonar",
+      "text": "sonar target discrimination: metal cylinder or rock"
+    },
+    {
+      "id": "sonar-6",
+      "task": "sonar",
+      "text": "Did this underwater echo come from a mine-like metal object or a rock?"
+    },
+    {
+      "id": "sonar-7",
+      "task": "sonar",
+      "text": "Classify sonar returns as metal cylinders or rocks from their spectral energy."
+    },
+    {
+      "id": "sonar-8",
+      "task": "sonar",
+      "text": "We recorded sonar pings, can you say if the object was a metallic canister or a rocky bottom?"
+    },
+    {
+      "id": "sonar-3",
+      "text": "Identify if a sonar chirp reflected off a metallic cylinder or a rocky surface.",
+      "task": "sonar"
+    },
+    {
+      "id": "sonar-4",
+      "text": "Discriminate underwater sonar targets by their frequency band energy.",
+      "task": "sonar"
+    },
+    {
+      "id": "sonar-9",
+      "task": "sonar",
+      "text": "Discriminate underwater sonar reflections from cylindrical metal targets versus rocks."
+    },
+    {
+      "id": "sonar-10",
+      "task": "sonar",
+      "text": "Underwater object classification, similar to mine versus rock echo discrimination."
+    },
+    {
+      "id": "sonar-11",
+      "task": "sonar",
+      "text": "sonar: target type from frequency band energies of the return"
+    },
+    {
+      "id": "sonar-12",
+      "task": "sonar",
+      "text": "A marine survey needs returns sorted into metal cylinder or rock classes from their chirp response."
+    },
+    {
+      "id": "thyroid-1",
+      "text": "Screen a patient for hyperthyroidism or hypothyroidism from a thyroid function panel.",
+      "task": "thyroid"
+    },
+    {
+      "id": "thyroid-2",
+      "text": "I have hormone lab records and need a thyroid disease diagnosis.",
+      "task": "thyroid"
+    },
+    {
+      "id": "thyroid-5",
+      "task": "thyroid",
+      "text": "thyroid function classification from hormone panels"
+    },
+    {
+      "id": "thyroid-6",
+      "task": "thyroid",
+      "text": "Does this hormone panel indicate hyperthyroidism, hypothyroidism or normal function?"
+    },
+    {
+      "id": "thyroid-7",
+      "task": "thyroid",
+      "text": "Label thyroid lab panels as normal, underactive or overactive."
+    },
+    {
+      "id": "thyroid-8",
+      "task": "thyroid",
+      "text": "I have blood test results for thyroid hormones, is the patient's thyroid overacting or underacting?"
+    },
+    {
+      "id": "thyroid-3",
+      "text": "Classify a thyroid panel as normal, hyperthyroid or hypothyroid.",
+      "task": "thyroid"
+    },
+    {
+      "id": "thyroid-4",
+      "text": "From routine thyroid hormone tests, decide the patient's thyroid condition.",
+      "task": "thyroid"
+    },
+    {
+      "id": "thyroid-9",
+      "task": "thyroid",
+      "text": "Classify thyroid status from routine hormone assay values."
+    },
+    {
+      "id": "thyroid-10",
+      "task": "thyroid",
+      "text": "Endocrine screening decision, similar to thyroid condition diagnosis from blood panels."
+    },
+    {
+      "id": "thyroid-11",
+      "task": "thyroid",
+      "text": "thyroid: condition from TSH, T3 and T4 hormone readings"
+    },
+    {
+      "id": "thyroid-12",
+      "task": "thyroid",
+      "text": "A clinic wants to automatically triage thyroid function test results into disease categories."
+    },
+    {
+      "id": "wdbc-1",
+      "text": "Decide if a breast tumor sample is malignant or benign from its cell nucleus measurements.",
+      "task": "wdbc"
+    },
+    {
+      "id": "wdbc-2",
+      "text": "Given a fine needle aspirate cytology report, classify the mass.",
+      "task": "wdbc"
+    },
+    {
+      "id": "wdbc-5",
+      "task": "wdbc",
+      "text": "breast tumor malignancy classification from cell measurements"
+    },
+    {
+      "id": "wdbc-6",
+      "task": "wdbc",
+      "text": "Is this breast mass malignant or benign based on its cell nuclei features?"
+    },
+    {
+      "id": "wdbc-7",
+      "task": "wdbc",
+      "text": "Assign a malignant or benign label to a breast tissue sample from cytology measurements."
+    },
+    {
+      "id": "wdbc-8",
+      "task": "wdbc",
+      "text": "The doctor needs to know if the lump is cancerous, here are the cell nucleus numbers."
+    },
+    {
+      "id": "wdbc-3",
+      "text": "Assess whether a biopsy of a breast lump indicates a malignant or a benign lesion.",
+      "task": "wdbc"
+    },
+    {
+      "id": "wdbc-4",
+      "text": "Classify the diagnosis for a digitized image of a breast mass fine needle aspirate.",
+      "task": "wdbc"
+    },
+    {
+      "id": "wdbc-9",
+      "task": "wdbc",
+      "text": "Classify breast mass samples as malignant or benign from fine needle aspirate features."
+    },
+    {
+      "id": "wdbc-10",
+      "task": "wdbc",
+      "text": "Tumor screening decision, similar to breast lesion classification from cytology."
+    },
+    {
+      "id": "wdbc-11",
+      "task": "wdbc",
+      "text": "wdbc: diagnosis label from radius, texture, perimeter and smoothness of cell nuclei"
+    },
+    {
+      "id": "wdbc-12",
+      "task": "wdbc",
+      "text": "A pathology team wants an automated read of breast mass aspiration measurements into malignant or benign."
+    },
+    {
+      "id": "wine-1",
+      "text": "Predict the wine cultivar from chemical analysis results.",
+      "task": "wine"
+    },
+    {
+      "id": "wine-2",
+      "text": "I have lab values of alcohol, flavanoids and similar compounds for a wine sample, which cultivar is it from?",
+      "task": "wine"
+    },
+    {
+      "id": "wine-5",
+      "task": "wine",
+      "text": "wine cultivar classification from chemistry"
+    },
+    {
+      "id": "wine-6",
+      "task": "wine",
+      "text": "Which of the three wine cultivars does this chemical sample belong to?"
+    },
+    {
+      "id": "wine-7",
+      "task": "wine",
+      "text": "Map wine chemical measurements to their cultivar of origin."
+    },
+    {
+      "id": "wine-8",
+      "task": "wine",
+      "text": "I ran a chemical analysis on a wine bottle, can you tell me the grape cultivar?"
+    },
+    {
+      "id": "wine-3",
+      "text": "Determine which of three cultivars a wine sample comes from, using its chemical profile.",
+      "task": "wine"
+    },
+    {
+      "id": "wine-4",
+      "text": "Use the alcohol, malic acid and related measurements to identify the wine class.",
+      "task": "wine"
+    },
+    {
+      "id": "wine-9",
+      "task": "wine",
+      "text": "Identify the cultivar class of a wine sample from its laboratory chemistry features."
+    },
+    {
+      "id": "wine-10",
+      "task": "wine",
+      "text": "Wine type prediction, similar to cultivar recognition from lab values."
+    },
+    {
+      "id": "wine-11",
+      "task": "wine",
+      "text": "wine: cultivar from alcohol, malic acid, ash and related chemical columns"
+    },
+    {
+      "id": "wine-12",
+      "task": "wine",
+      "text": "A winery lab wants to verify the stated cultivar of a bottle by checking its chemical fingerprint."
+    },
+    {
+      "id": "wine_quality-1",
+      "text": "Predict the quality score of a red wine from its physicochemical tests.",
+      "task": "wine_quality"
+    },
+    {
+      "id": "wine_quality-2",
+      "text": "Give a sensory quality rating for wine samples based on lab chemistry.",
+      "task": "wine_quality"
+    },
+    {
+      "id": "wine_quality-5",
+      "task": "wine_quality",
+      "text": "red wine quality score prediction from chemistry"
+    },
+    {
+      "id": "wine_quality-6",
+      "task": "wine_quality",
+      "text": "What sensory quality rating would this wine get based on its lab tests?"
+    },
+    {
+      "id": "wine_quality-7",
+      "task": "wine_quality",
+      "text": "Estimate the quality score of red wines from their physicochemical profile."
+    },
+    {
+      "id": "wine_quality-8",
+      "task": "wine_quality",
+      "text": "Can you guess the quality score this red wine received from the taster panel, using the lab numbers?"
+    },
+    {
+      "id": "wine_quality-3",
+      "text": "Estimate the sensory score of a red wine from acidity, sugar and sulphates.",
+      "task": "wine_quality"
+    },
+    {
+      "id": "wine_quality-4",
+      "text": "Rate wine quality from its analytical chemistry measurements.",
+      "task": "wine_quality"
+    },
+    {
+      "id": "wine_quality-9",
+      "task": "wine_quality",
+      "text": "Predict the sensory quality label of red wine samples from analytical chemistry measurements."
+    },
+    {
+      "id": "wine_quality-10",
+      "task": "wine_quality",
+      "text": "Wine grading, similar to sensory score estimation from acidity and sulphates."
+    },
+    {
+      "id": "wine_quality-11",
+      "task": "wine_quality",
+      "text": "wine quality: score from fixed acidity, volatile acidity, citric acid and alcohol"
+    },
+    {
+      "id": "wine_quality-12",
+      "task": "wine_quality",
+      "text": "A cellar wants to rank its red wines by expected panel score using routine chemistry tests."
+    }
+  ]
+}

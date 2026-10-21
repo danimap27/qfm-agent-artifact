@@ -1,0 +1,4 @@
+# Extras on top of requirements-lock.txt: figures and the device-noise audit.
+matplotlib==3.11.2
+qiskit-aer==0.18.0
+qiskit-ibm-runtime==0.50.0

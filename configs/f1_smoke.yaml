@@ -1,0 +1,42 @@
+# F1 smoke: multitask pretraining of the QFM-lite substrate.
+# Mix: 11 pretraining tasks across the three families. The two held-out
+# tasks (ionosphere, blood_transfusion) are excluded by design and used by
+# the transfer protocol instead (see make transfer-f1).
+seed: 0
+substrate:
+  n_qubits: 8
+  # Depth 3: with depth 2 (32 parameters) the eleven-task mixture sacrifices
+  # the small tasks (task interference); depth 3 adds capacity within the
+  # range fixed by the plan (depth 2-4).
+  depth: 3
+  n_features: 8
+tasks:
+  - iris
+  - wine
+  - wdbc
+  - thyroid
+  - parkinsons
+  - wine_quality
+  - sonar
+  - digits
+  - mnist8
+  - fashion8
+  - periodic_sin
+limits:
+  digits: 800
+  thyroid: 1500
+  mnist8: 2000
+  fashion8: 2000
+training:
+  # 12 outer rounds x 80 SPSA steps = 880 steps, the budget that the 5-task
+  # version needed to converge; the 11-task mix keeps it with the balanced
+  # per-task loss so small tasks keep an equal gradient share.
+  outers: 12
+  spsa_steps_per_outer: 80
+  spsa:
+    a: 0.4
+    c: 0.12
+    alpha: 0.602
+    gamma: 0.101
+    A: 5.0
+output: results/f1_smoke

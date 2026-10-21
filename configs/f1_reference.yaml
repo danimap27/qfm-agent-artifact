@@ -1,0 +1,36 @@
+# F1 reference: substrate configuration selected by the sweep (2026-09-23).
+# Depth 4 with 1900 SPSA steps wins the depth x budget grid on the
+# eleven-task mix (see docs/f1-sweep.md). This is the substrate that the
+# agent phases (F2 onward) use. Held-out tasks stay excluded by design.
+seed: 0
+substrate:
+  n_qubits: 8
+  depth: 4
+  n_features: 8
+tasks:
+  - iris
+  - wine
+  - wdbc
+  - thyroid
+  - parkinsons
+  - wine_quality
+  - sonar
+  - digits
+  - mnist8
+  - fashion8
+  - periodic_sin
+limits:
+  digits: 800
+  thyroid: 1500
+  mnist8: 2000
+  fashion8: 2000
+training:
+  outers: 20
+  spsa_steps_per_outer: 100
+  spsa:
+    a: 0.4
+    c: 0.12
+    alpha: 0.602
+    gamma: 0.101
+    A: 5.0
+output: results/f1_reference
